@@ -6,7 +6,7 @@ interface Results {
 
 function Results({ year, day, month }: Results) {
   return (
-    <div className='pt-14 italic xl:text-8xl text-6xl font-semiBold'>
+    <div className='pt-14 italic xl:text-7xl text-6xl font-semiBold'>
       <div className="mb-4">
         <span className="text-custum-purple">{year || '--'}</span> years
       </div>
